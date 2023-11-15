@@ -79,4 +79,5 @@ userSchema.methods.generateRefreshToken = function () {
         }
     );
 };
+
 export const User = new model('User', userSchema);
